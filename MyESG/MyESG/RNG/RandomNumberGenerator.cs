@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyESG
+{
+    interface IRandomNumberGenerator
+    {
+        void Reset();
+
+        double GenerateNormal();
+        double GenerateUniform();
+        int GeneratePoisson(double lambda);
+    }
+}
