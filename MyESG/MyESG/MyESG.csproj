@@ -54,7 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BrownianBridge.cs" />
     <Compile Include="Choleski.cs" />
+    <Compile Include="Models\CIR.cs" />
+    <Compile Include="Models\Vasicek.cs" />
     <Compile Include="RNG\RNGLaggedFibonacci.cs" />
     <Compile Include="RNG\RandomNumberGenerator.cs" />
     <Compile Include="RNG\RNGBase.cs" />
